@@ -1,0 +1,14 @@
+// code to check if two numbers in the different arrays are equal
+function checkRandom(firstRandom, secondRandom) {
+  var firstArray = [4, 6, 8, 2,9];
+  var secondArray = [5, 8, 6, 0, 2];
+  var firstRandom = Math.floor(Math.random()*firstArray.length);
+  var secondRandom = Math.floor(Math.random()*secondArray.length);
+  if (firstRandom === secondRandom) {
+    return "numbers are equal"
+  }
+  if (firstRandom !== secondRandom) {
+    return "unequaL"
+  }
+}
+checkRandom(firstRandom, secondRandom);
